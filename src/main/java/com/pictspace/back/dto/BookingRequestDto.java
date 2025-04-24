@@ -15,7 +15,7 @@ import lombok.Setter;
 public class BookingRequestDto {
     private Long id;
     private Long userId;
-    private Long roomName;
+    private Long roomId;
     private Long timeslotId; // ✅ Change from departmentId to timeslotId
     private LocalDate date;
     private LocalTime startTime;
